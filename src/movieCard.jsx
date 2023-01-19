@@ -20,13 +20,6 @@ const MovieCard = ({ movie }) => {
       <div>
         <span>{movie.Type}</span>
         <h3>{movie.Title}</h3>
-        {/*  <button
-          onClick={() => {
-            console.log("ive been clicked");
-          }}
-        >
-          Full description
-        </button> */}
       </div>
     </div>
   );
